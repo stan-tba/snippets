@@ -1,0 +1,3 @@
+# translate old js class to new object literal
+%s/^\( \+\)this.\(\w\+\) = function/\1\2/c
+%s/};/},/c
